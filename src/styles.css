@@ -1,0 +1,47 @@
+/* All elements */
+body {
+  background-image: url (". ./images/Background2.jpg");
+}
+/* All classes */
+.frostedBg {
+  background: linear-gradient(
+    87.4deg,
+    rgb(255, 159, 122) 5.6%,
+    rgb(209, 231, 235) 57.4%,
+    rgb(238, 219, 199) 71.4%,
+    rgb(255, 159, 122) 102.6%
+  );
+}
+.form-control {
+  padding: 5px 25px;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  vertical-align: middle;
+  border-color: #6c757d;
+}
+.form-control:focus {
+  border: none;
+  outline-color: none;
+  background: transparent;
+}
+
+.col-4 {
+  text-align: right;
+}
+.footer {
+  margin: 24px;
+  text-align: center;
+  font-size: 0.6rem;
+  font-family: "Pacifico", cursive;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+/* All ids */
+#navbar {
+  padding: 20px 20px 0px 20px;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 0.5vw;
+}
