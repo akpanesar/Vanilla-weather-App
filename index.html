@@ -20,9 +20,9 @@
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
-    <!-- start of bars-->
-    <div class="container" id="navbar">
-      <div class="row">
+    <div class="container">
+      <!-- start of navBar-->
+      <div class="row" id="navbar">
         <div class="col-6">
           <form class="search-form">
             <div class="input-group mb-3">
@@ -50,19 +50,76 @@
           </button>
         </div>
       </div>
+      <!-- end of navBar-->
     </div>
-    <!-- end of bars-->
-    <hr />
-    <!-- start of app body-->
-    <div class="container"></div>
-    <!-- end of app body-->
-    <!-- start of footer-->
-    <hr />
-    <div class="footer">
-      Coded by
-      <a href="https://www.instagram.com/amanvalpanesar/"> Amanpreet Panesar</a>
-      open-sourced on <a href="https://github.com/akpanesar">Github</a> hosted
-      on <a href="https://www.netlify.com/">Netlify</a>
+    <!-- start of appBody1 city, date&time, temp-->
+    <div class="appBody">
+      <section class="heading">
+        <h1 id="citySearch">London, UK</h1>
+        <h4 id="today">Monday, 06 September</h4>
+        <span class="time"> 12:54 PM </span>
+      </section>
+      <div class="row">
+        <div class="col-6">weather icon</div>
+        <div class="col-6 temperature">
+          Currently
+          <h2 id="currentTemperature">22</h2>
+          <sup class="degrees">
+            <a href="#" id="celsiusLink">°C</a> |
+            <a href="#" id="fahrenheitLink">°F</a>
+          </sup>
+          <h5>Description</h5>
+        </div>
+      </div>
+      <!-- end of appBody1 city, date&time, temp-->
+      <!-- start of appBody2 other weather descriptors-->
+      <div class="row">
+        <div class="col-4">
+          High <br />
+          <span class="description">26°C</span>
+        </div>
+        <div class="col-4">
+          Wind <br />
+          <span class="description">2 mph </span>
+        </div>
+        <div class="col-4">
+          Sunrise <br />
+          <span class="description">6:20 AM</span>
+        </div>
+        <div class="w-100"></div>
+        <br />
+
+        <div class="col-4">
+          Low
+          <br /><span class="description">
+            17°C
+          </span>
+        </div>
+        <div class="col-4">
+          Humidity <br />
+          <span class="description">77% </span>
+        </div>
+        <div class="col-4">
+          Sunset
+
+          <br />
+
+          <span class="description"> 7:37 PM</span>
+        </div>
+      </div>
+    </div><!-- end of appBody2 other weather descriptors-->
+      <!-- start of appBody3 Forecast -->
+      <!-- end of appBody3 Forecast-->
+      <!-- start of footer-->
+      <hr />
+      <div class="footer">
+        Coded by
+        <a href="https://www.instagram.com/amanvalpanesar/">
+          Amanpreet Panesar</a
+        >
+        open-sourced on <a href="https://github.com/akpanesar">Github</a> hosted
+        on <a href="https://www.netlify.com/">Netlify</a>
+      </div>
     </div>
     <script src="src/script.js"></script>
   </body>
