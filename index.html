@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,8 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
       rel="stylesheet"
     />
-    
-    <link rel="stylesheet" href="src/styles.css" />
+        <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
     <div class="nav">
@@ -50,30 +50,29 @@
           </button>
         </div>
       </div>
-      <hr/>
-      <!-- end of navBar-->
+    <!-- end of navBar-->
     </div>
+    <hr/>
     <!-- start of appBody1 city, date&time, temp-->
     <div class="container appBody">
       <section class="heading">
         <h1 id="citySearch">London, UK</h1>
-        <h4 id="today">Monday, 06 September</h4>
+        <h3 id="today">Monday, 06 September</h3>
         <span class="time"> 12:54 PM </span>
       </section>
-      <br />
-      
+      <br />  
       <div class="row">
-        <div class="col-6 weatherIcon">weather icon</div>
-        <div class="col-6 temperature">
-          Currently
-          <h2 id="currentTemperature">22</h2>
-          <sup class="degrees">
-            <a href="#" id="celsiusLink">°C</a> |
-            <a href="#" id="fahrenheitLink">°F</a>
-          </sup>
-          <h5>Description</h5>
-        </div>
-      </div>
+      <div class="col">
+<div class="clearfix accuWeather">
+<img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" class="float-left"/>
+<div class="float-left"><span id="currentTemperature">22</span>
+  <a href="#" class="units" id="celsiusLink">°C</a> |
+<a href="#" class="units" id="fahrenheitLink">°F</a>
+<h5>Description</h5>   
+</div>
+</div>       
+</div>
+</div>      
       <!-- end of appBody1 city, date&time, temp-->
       <!-- start of appBody2 other weather descriptors-->
       <div class="row">

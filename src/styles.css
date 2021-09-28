@@ -43,9 +43,6 @@ body {
 .locationButton {
   text-align: right;
 }
-.currentTemperature {
-  font-size: 3.5rem;
-}
 
 .descriptor {
   padding: 1rem;
@@ -65,4 +62,7 @@ body {
   padding: 20px 20px 0px 20px;
   letter-spacing: 0.5vw;
   margin: 0 auto;
+}
+#currentTemperature {
+  font-size: 3.5rem;
 }
