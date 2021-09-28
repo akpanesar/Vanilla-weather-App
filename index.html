@@ -17,22 +17,23 @@
       href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
       rel="stylesheet"
     />
+    
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="nav">
       <!-- start of navBar-->
       <div class="row" id="navbar">
-        <div class="col-6">
+        <div class="col-8">
           <form class="search-form">
             <div class="input-group mb-3">
               <input
                 type="text"
-                class="form-control"
+                class="form-control w-80"
                 placeholder="Enter city name"
                 aria-label="Enter city name"
                 aria-describedby="button-addon2"
-              />
+                />
               <button
                 class="btn btn-outline-secondary"
                 type="button"
@@ -43,22 +44,22 @@
             </div>
           </form>
         </div>
-        <div class="col-2"></div>
-        <div class="col-4">
-          <button type="button" class="btn btn-outline-secondary">
-            Current Location
+                <div class="col-4">
+          <button type="button" class="btn btn-outline-secondary w-100">
+            Current City
           </button>
         </div>
       </div>
       <!-- end of navBar-->
     </div>
     <!-- start of appBody1 city, date&time, temp-->
-    <div class="appBody">
+    <div class="container" id="appBody">
       <section class="heading">
         <h1 id="citySearch">London, UK</h1>
         <h4 id="today">Monday, 06 September</h4>
         <span class="time"> 12:54 PM </span>
       </section>
+      <br />
       <div class="row">
         <div class="col-6">weather icon</div>
         <div class="col-6 temperature">
