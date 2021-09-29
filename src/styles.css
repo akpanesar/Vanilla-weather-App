@@ -4,11 +4,19 @@ body {
   background-position: center top;
   background-size: cover;
 }
-.heading {
+img {
+  margin-right: 15px;
+  height: 75px;
+  width: 75px;
+}
+
+.navBar {
+  margin: 30px auto;
+  max-width: 800px;
+}
+.appBody {
   text-align: center;
   color: #4f5253;
-}
-.container {
   background: radial-gradient(
     circle at 18.7% 37.8%,
     rgb(250, 250, 250) 0%,
@@ -39,11 +47,16 @@ body {
   outline-color: none;
   background: transparent;
 }
-
-.locationButton {
-  text-align: right;
+.weatherDescription {
+  text-transform: capitalize;
 }
 
+.units {
+  margin-left: 15px;
+  position: relative;
+  font-size: 16px;
+  top: -24px;
+}
 .descriptor {
   padding: 1rem;
   text-align: center;
@@ -58,11 +71,6 @@ body {
   color: hotpink;
 }
 
-#navbar {
-  padding: 20px 20px 0px 20px;
-  letter-spacing: 0.5vw;
-  margin: 0 auto;
-}
 #currentTemperature {
   font-size: 3.5rem;
 }
